@@ -8,14 +8,14 @@ public class hw8 {
 		
 		PublisherImp pub = new PublisherImp();
 		
-		SubscriberEven se = new SubscriberEven();
+		Subscriber se = new SubscriberEven();
 		se.setTurnOffThreshold(14);
 		
 		
-		SubscriberOdd so = new SubscriberOdd();
+		Subscriber so = new SubscriberOdd();
 		so.setTurnOffThreshold(21);
 		
-		SubscriberThrees st = new SubscriberThrees();
+		Subscriber st = new SubscriberThrees();
 		st.setTurnOffThreshold(10);
 		
 		
